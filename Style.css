@@ -1,0 +1,116 @@
+p1{ line-height: 1em;
+  color: purple;
+  font-size: 2.0em;
+  font-style: italic;
+  font-weight: bold;
+}
+p2{line-height:0.5em
+color:black;
+ font-size: 2.0em;
+  font-style: italic;
+  font-weight: bold
+}
+
+h1{
+  color: blue;
+	font-weight: bolder;
+	line-height: 1.1em;
+	margin: 0 0 .5em 0;
+        font-size: 5.0em;
+        font-style: italic;
+
+}
+h2{
+        color: blue;
+	font-weight:bold;
+	line-height: 1.1em;
+	margin: 0 0 .3em 0;
+        font-size: 2.5em;
+
+}
+.jumbotron{
+  min-height: 600px;
+  background-image:url('make2.jpg');
+  background-size:auto;
+  background-attachment: fixed;
+}
+.yandisa{
+  min-height: 600px;
+background-image:url('twit pic.jpg');
+background-size: auto;
+background-attachment: fixed;
+}
+
+body{
+    font-family: Arial; font-size: 100%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+
+}
+#page{ margin: 20px; }
+
+#logo{
+	width: 35%;
+	margin-top: 5px;
+	font-family: georgia;
+	display: inline-block;
+  font-style: italic;
+}
+#nav{
+	width: 60%;
+	display: inline-block;
+	text-align: right;
+	float: right;
+}
+
+#nav ul li{
+			display: inline-block;
+			height: 60px;
+          }
+
+			#nav ul li a{
+				padding: 20px;
+				background: orange;
+				color: white;
+			}
+			#nav ul li a:hover{
+				background-color: #ffb424;
+				box-shadow: 0px 1px 1px #666;
+			}
+			#nav ul li a:active{ background-color:#00ffdd; }
+
+#content{
+	margin: 30px 0;
+	background: white;
+	padding: 20px;disp
+	clear: both;
+}
+#footer{
+	border-bottom: 1px #ccc solid;
+	margin-bottom: 10px;
+}
+	#footer p{
+		text-align: right;
+		text-transform: uppercase;
+		font-size: 80%;
+		color: grey;
+	}
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }
+
+#social-buttons button{
+  color: white;
+}
+
+.btn-twitter{
+  background-color: #00acee;
+  border-color: #009ad5;
+}
+
+.btn-facebook{
+  background-color: #4868ac;
+  border-color: #314776;
+}
+
+.btn-pinterest{
+  background-color: #b62f26;
+  border-color: #b62f26;
+}
